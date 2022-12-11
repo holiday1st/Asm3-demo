@@ -1,0 +1,75 @@
+@media screen and (max-width: 768px) {
+  .container-nav,
+  .container-thongtin,
+  .container-title {
+    display: block;
+  }
+  #cc-gt {
+    display: block;
+  }
+  .nav-size-avt {
+    display: none;
+  }
+  .nav-size {
+    padding: 15px 0;
+    border: none;
+  }
+  #nav-bar {
+    text-align: left;
+    height: 100px;
+  }
+  #personal-info {
+    padding: 0;
+  }
+  .giaithuong1,
+  .giaithuong2 {
+    border: none;
+  }
+  .giaithuong {
+    border-bottom: solid red 3px;
+    margin-top: 20px;
+  }
+  .giaithuong2 {
+    border: none;
+  }
+  .giaithuong-images {
+    width: 100%;
+    height: auto;
+  }
+  .project {
+    display: block;
+  }
+}
+
+/* Mobile Digital */
+@media screen and (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .scoper-colums {
+    display: block;
+  }
+  .team,
+  .goal,
+  .primary,
+  .timeline {
+    display: block;
+  }
+  .goal span {
+    border: none;
+  }
+  .icon-digital {
+    text-align: center;
+  }
+  .box1 {
+    order: -2;
+  }
+  .box3 {
+    order: 1;
+  }
+  .box4 {
+    order: -1;
+  }
+}

@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/laptop.css" />
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/mobile.css" />
+    <link rel="stylesheet" href="./css/font.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <title>Assignment 3</title>
+  </head>
+  <body>
+    <div id="banner" style="padding: 50px 50px 0 50px">
+      <div class="name">
+        <h1>Đỗ Văn Đức</h1>
+        <p>Java Developer</p>
+      </div>
+      <img src="images/banner.jpg" alt="banner" class="banner-avatar" />
+    </div>
+
+    <section id="nav-bar">
+      <ul class="container-nav">
+        <li><a href="#" class="nav-size"
+        ><i class="icon-user"></i>Thông tin</a
+        ></li>
+        <li><a href="#" class="nav-size"
+          ><i class="icon-doc-text-inv"></i>Lý lịch</a
+        ></li>
+
+        <li class="nav-size-avt">
+        <img src="./images/default-avatar.webp" alt="avatar" class="avatar" />
+        </li>
+
+        <li><a href="#" class="nav-size"
+          ><i class="icon-mail-alt"></i>Chứng chỉ</a
+        ></li>
+        <li><a href="#project" class="nav-size"
+          ><i class="icon-star-1"></i>Dự Án</a
+        ></li>
+      </ul>
+    </section>
+
+    <section id="about" class="bg-grey">
+      <div class="container">
+        
+
+        <!-- mục tiêu, thông tin cá nhân -->
+        
+        
+        <div class="container-thongtin">
+          <div id="target">
+            <h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+            <p style="padding-top: 20px;">
+              Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh Nghiệp
+              của FUNiX. Em mong muốn mình sẽ được làm việc với vị trí
+              <b>Java Developer</b>, có thể vận dụng những kiến thức đã được
+              trau dồi và không ngừng học hỏi để phát triển bản thân, cũng như
+              hoàn thành tốt nhất công việc được giao.
+            </p>
+          </div>
+          <div id="personal-info">
+            <h1 class="section-title">Thông tin cá nhân</h1>
+            <div class="forms-hidden">
+              <form name="form">
+                <input type="email" id="email" name="email" placeholder="Add your Email" required><br>
+                <label for="email"><em>>> Hãy nhập email để xác thực</em></label><br>
+                <button id="submit" type="button">Check !!!</button>
+              </form>
+            </div>
+            <div class="infor hidden">
+              <ul class="mt-40 info" style="padding-top: 20px;">
+                <li><strong>Giới tính</strong> : Nam</li>
+                <li><strong>Ngày sinh</strong> : 08/09/1998</li>
+                <li><strong>Điện thoại</strong> : (+84) 912398xxx</li>
+                <li><strong>Email</strong> : ducdvfx19612@funix.edu.vn</li>
+                <li><strong>Địa chỉ</strong> : Cộng Hòa, Chí Linh, Hải Dương</li>
+                <li><strong>Website</strong> : https://abc.tech</li>
+              </ul>
+              <div class="info-title">
+              <i class="icon-twitter" style="color:#199cdb"></i>
+              <i class="icon-facebook" style="color:#199cdb"></i>
+              <i class="icon-gplus" style="color:#199cdb"></i>
+              <i class="icon-linkedin" style="color:#199cdb"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="job-info">
+      <div class="container">
+        <div class="container-title">
+          <div class="kinhnghiem box" id="box1" style="margin-top: 20px">
+          
+
+            <!-- Kinh nghiệm -->
+          
+
+            <div class="kinhnghiem-title">
+                <h1>Kinh nghiệm</h1>
+              </div>
+              <div class="kinhnghiem-icon">
+                <i class="ic-toolbox"></i>
+              </div>
+              <div class="kinhnghiem-noidung show-more">
+                <p class="show-text"><a href="#box1" class="btn-hide show-link show">View More &#10549;</a></p>
+                <ul class="more hidden">
+                  <li>
+                    <span style="font-size: 12px; font-weight: bold;"> Developer- Công ti Y</span>
+                    <p><em>05/2022 - <span style="color: aliceblue; background-color: #199cdb; border-radius: 20%; padding: 0 10px 0 10px;">Hiện tại</span></em></p><br>
+                    <p>-Xây dựng, phát triển Webside dựa trên thiết kế và yêu cầu đã có.</p><br>
+                    <p>Phân tích và thiết kế Database, sử dụng các hệ quản trị  CSDL(MySQL, SQLserver, NoSQL,...)và viết được các câu truy vấn</p><br>
+                    <p>-Sử dụng ngôn ngữ server-side Python, Java,... để xây dựng các Web Service</p>
+                    <br>
+                    <br>
+                  </li>
+                  <li>
+                    <span style="font-size: 12px; font-weight: bold;"> Web Designer - Công ti X</span>
+                    <p><em>06/2021-04/2022</em></p><br>
+                    <p>-Thiết kế Webside dựa trên yêu cầu của khách hàng.</p><br>
+                    <p>Sử dụng các công cụ Figma, Carva, PTS.</p>
+                  </li>
+                  <p class="show-text"><a href="#box1" class="hide show-hide"><em>View Less &#10548;</em></a></p>
+                </ul>
+              </div>
+          </div>
+          
+          
+          <!-- học vấn -->
+          
+          
+          <div class="hocvan box" id="box2" style="margin-top: 20px">
+            <div class="hocvan-title">
+              <h1>Học vấn</h1>
+            </div>
+            <div class="hocvan-icon">
+              <i class="ic-pencil"></i>
+            </div>
+            <div class="hocvan-noidung show-more">
+              <p class="show-text"><a href="#box2" class="btn-hide show-link show ">View More &#10549;</a></p>
+              <div class="more hidden">
+              <ul>
+                <li>
+                  <span style="font-size: 12px; font-weight: bold;">FUNIX</span>
+                  <p><em>06/2021-05/2022</em></p><br>
+                  <p>- Tốt nghiệp chứng chỉ doanh nghiệp nhánh Java.</p></li>
+                  <br>
+                  <br>
+                <li>
+                  <span style="font-size: 12px; font-weight: bold;">Cử nhân - Đại học Shumei</span>
+                  <p>04/2019-04/2023</p><br>
+                  <p>
+                    -Chuyên ngành kỹ thuật phần mềm.<br>
+                    -GPA 2/4
+                  </p>
+                </li>
+                <p class="show-text"><a href="#box2" class="hide show-hide"><em>View Less &#10548;</em></a></p>
+              </ul>
+              </div>
+            </div>
+          </div>
+          
+          
+          <!-- Phần hoạt động -->
+          
+          
+          <div style="margin-top: 20px" class="hoatdong box" id="box3">
+            <div class="hoatdong-title">
+            <h1>Hoạt động</h1>
+          </div>
+          <div class="hoatdong-icon">
+            <i class="ic-toolbox"></i>
+          </div>
+          <div class="hoatdong-noidung show-more">
+            <p class="show-text"><a href="#box3" class="btn-hide show-link show">View More &#10549;</a></p>
+            <div class="more hidden">
+              <ul>
+                <li>
+                  <span style="font-size: 12px; font-weight: bold;">FPT Edu Hackathon 2019</span>
+                  <p><em>03/2019-05/2019</em></p><br>
+                  <p>-Giải 3 bảng A</p>
+                  <p >-Đề tài Trang Web về phân loại rác thải.</p>
+                </li>
+                <br>
+                <br>
+                <li>
+                  <span style="font-size: 12px; font-weight: bold;">Câu lạc bộ Z</span>
+                  <p><em>08/2016-08-2017</em></p><br>
+                  <p>Trưởng ban chuyên môn.</p>
+
+                </li>
+                <p class="show-text"><a href="#box3" class="hide show-hide"><em>View Less &#10548;</em></a></p>
+              </ul>
+            </div>
+            </div>
+          </div>
+          
+          
+          <!-- Phần sở thích -->
+          
+          
+          <div class="sothich box" id="box4" style="margin-top: 20px">
+            <div class="sothich-title">
+            <h1>Sở thích</h1>
+          </div>
+          <div class="sothich-icon">
+            <i class="ic-telescope"></i>
+          </div>
+          <div class="sothich-noidung show-more">
+            <p class="show-text"><a href="#box4" class="btn-hide show-link show">View More &#10549;</a></p>
+              <div class="more hidden">
+                <div class="st-icon-grid">
+                <i class="ic-megaphone st-icon"></i>
+                <i class="ic-strategy st-icon"></i>
+                <i class="ic-hotairballoon st-icon"></i>
+                <i class="ic-basket st-icon"></i>
+                <p>Âm nhạc</p>
+                <p>Chơi game</p>
+                <p>Du lịch</p>
+                <p>Nấu ăn</p>
+                </div>
+                <p class="show-text"><a href="#box4" class="hide show-hide"><em>View Less &#10548;</em></a></p>
+              </div>
+            </div>
+            
+          </div>
+
+
+          <!-- Phần ngôn ngữ -->
+          
+          
+          <div class="ngonngu box" id="box5" style="margin-top: 20px">
+            <div class="ngonngu-title">
+              <h1>Ngôn ngữ</h1>
+            </div>
+            <div class="ngonngu-icon">
+              <i class="ic-mic"></i>
+            </div>
+            <div class="ngonngu-noidung show-more" style="padding-left: 30px;">
+              <p class="show-text"><a href="#box5" class="btn-hide show-link show ">View More &#10549;</a></p>
+              <div class="more hidden">
+                <p><span style="font-size: 12px; font-weight: bold;">Tiếng anh - IELTS 7.0</span></p>
+                <span style="background: #199cdb;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: #199cdb;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: gray;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <p><span style="font-size: 12px; font-weight: bold;">Tiếng Nhật - JLPT N2</span></p>
+                <span style="background: #199cdb;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: gray;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: gray;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span><br><br>
+              <p class="show-text"><a href="#box1" class="hide show-hide"><em>View Less &#10548;</em></a></p>
+              </div>
+
+            </div>
+
+          </div>
+          
+          
+          <!-- Phần kĩ năng -->
+
+          
+          <div class="kinang box" id="box6" style="margin-top: 20px">
+            <div class="kinang-title">
+            <h1>Kỹ năng</h1>
+          </div>
+          <div class="kinang-icon">
+            <i class="ic-tools-2"></i>
+          </div>
+          <div class="kinang-noidung show-more" style="padding-left: 30px;">
+            <p class="show-text"><a href="#box6" class="btn-hide show-link show ">View More &#10549;</a></p>
+              <div class="more hidden">
+                <p><span style="font-size: 12px; font-weight: bold;">HTML/CSS:Fundamental</span></p>
+                <span style="background: #199cdb;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: gray;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: gray;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <p><span style="font-size: 12px; font-weight: bold;">Javascript: Intermediate</span></p>
+                <span style="background: #199cdb;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: #199cdb;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: gray;
+                display: inline-block;
+                height: 2px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <p><span style="font-size: 12px; font-weight: bold;">NodeJS: Intermediate</span></p>
+                <span style="background: #199cdb;
+                display: inline-block;
+                height: 4px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: #199cdb;
+                display: inline-block;
+                height: 4px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: gray;
+                display: inline-block;
+                height: 4px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <p><span style="font-size: 12px; font-weight: bold;">Bootstrap 5: Fundamental</span></p>
+                <span style="background: #199cdb;
+                display: inline-block;
+                height: 4px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: gray;
+                display: inline-block;
+                height: 4px;
+                margin-right: 10px;
+                width: 5em;"></span>
+                <span style="background: gray;
+                display: inline-block;
+                height: 4px;
+                margin-right: 10px;
+                width: 5em;"></span><br><br>
+              <p class="show-text"><a href="#box1" class="hide show-hide"><em>View less &#10548;</em></a></p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Phần chứng chỉ - Giải thưởng -->
+
+    <section id="certificate" class="bg-grey">
+      <div class="container box">
+        <h1 class="section-title">Chứng chỉ - Giải thưởng</h1>
+        <div id="cc-gt">
+          <div class="giaithuong giaithuong1">
+            <img src="images/Cert_WEB.png" alt="Chứng chỉ lập trình Web" class="giaithuong-images"/>
+            <div class="giaithuong-noidung">
+              <p class="giaithuong-title">chứng chỉ lập trình web - funix</p>
+              <p>-Chứng chỉ thuộc chương trình CCDN<br>
+              -GPA: 8.5</p>
+            </div>
+          </div>
+          <div class="giaithuong">
+            <img src="images/Cert_PRF.png" alt="Lập trình Javascrip" class="giaithuong-images"/>
+            <div class="giaithuong-noidung">
+              <p class="giaithuong-title">
+                chứng chỉ lập trình javascript - funix
+              </p>
+              <p>-Chứng chỉ thuộc chương trình CCDN<br>
+                -GPA: 8.5</p>
+            </div>
+          </div>
+          <div class="giaithuong giaithuong2">
+            <img src="images/Cert_DBI.png" alt="Chứng chỉ thiết kế Database" class="giaithuong-images"/>
+            <div class="giaithuong-noidung">
+              <p class="giaithuong-title">chứng chỉ thiết kế database - funix</p>
+              <p>-Chứng chỉ thuộc chương trình CCDN<br>
+              -GPA: 8.9</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </section>
+
+
+    <!-- phần dự án -->
+
+
+    <section id="project">
+      <div class="container">
+        <h1 class="section-title">Dự án</h1>
+        <div class="project">
+          <div>
+            <a href="digital-cv.html"><img src="images/project_1.png" alt="CV cá nhân" class="project-image"></a>
+            <div class="project-name">
+              CV cá nhân
+            </div>
+            <div class="project-box" style="display: inline-block; padding-left: 30px;">
+              <ul>
+                <li><span style="color: aliceblue; background-color: #199cdb; border-radius: 40%; padding: 10px 15px 10px 15px;">2021</span></li>
+                <li><i class="icon-user-1">FUNIX</i></li>
+                <li><i class="icon-lamp">Developer</i></li>
+              </ul>
+            </div>
+            <!-- Phần table dự án -->
+            <div>
+              <table class="project-table">
+                <tr>
+              <td style="width: 30%">Mô tả</td>
+              <td>Trang Web CV cá nhân online. Gồm các thông tin cá nhân cũng như kĩ năng nghề nghiệp</td>
+              </tr>
+              <tr>
+              <td style="width: 30%">Nhiệm vụ</td>
+              <td>
+                -Phát triển code - Review code - Tối ưu code - Xử lí lỗi
+              </td>
+              </tr>
+              <tr>
+              <td style="width: 30%; border-bottom: none;">Công nghệ</td>
+              <td style="border-bottom: none;">-HTML, CSS</td>
+              </tr>
+              </table>
+            </div>
+          </div>
+          <div>
+            <img src="images/project_2.png" alt="CV cá nhân" class="project-image">
+            <div class="project-name">
+              Trang Web quản lí thú cưng
+            </div>
+            <div class="project-box" style="display: inline-block; padding-left: 30px;">
+              <ul>
+                <li><span style="color: aliceblue; background-color: #199cdb; border-radius: 40%; padding: 10px 15px 10px 15px;">2021</span></li>
+                <li><i class="icon-user-1">FUNIX</i></li>
+                <li><i class="icon-lamp">Developer</i></li>
+              </ul>
+            </div>
+            <div>
+              <table class="project-table">
+                <tr>
+                  <td style="width: 30%">Mô tả</td>
+                  <td>Ứng dụng giúp quản lí thông tin của thú cưng như: cân nặng, giống, tình trạng tiêm chủng bao gồm các chức năng thêm/ chỉnh sửa/ xóa.</td>
+                </tr>
+                <tr>
+                  <td style="width: 30%">Nhiệm vụ</td>
+                  <td>
+                    -Phát triển code - Review code - Tối ưu code - Xử lí lỗi
+                  </td>
+                </tr>
+                <tr>
+                  <td style="width: 30%; border-bottom: none;">Công nghệ</td>
+                  <td style="border-bottom: none;">-HTML, CSS, Javascript</td>
+                </tr>             
+              </table>
+            </div>
+          </div>
+          <div>
+            <img src="images/project_3.png" alt="CV cá nhân" class="project-image">
+            <div class="project-name">
+              Trang Web xem tin tức
+            </div>
+            <div class="project-box" style="display: inline-block; padding-left: 30px;">
+              <ul>
+                <li><span style="color: aliceblue; background-color: #199cdb; border-radius: 40%; padding: 10px 15px 10px 15px;">2021</span></li>
+                <li><i class="icon-user-1">FUNIX</i></li>
+                <li><i class="icon-lamp">Developer</i></li>
+              </ul>
+            </div>
+            <div>
+              <table class="project-table">
+                <tr>
+                <td style="width: 30%">Mô tả</td>
+                <td>Trang Web xem tin tức từ nhiều nguồn khác nhau, người dùng có thể tìm kiếm các tin tức dựa theo từ khóa.</td>
+                </tr>
+                <tr>
+                <td style="width: 30%">Nhiệm vụ</td>
+                <td>
+                  -Phát triển code - Review code - Tối ưu code - Xử lí lỗi
+                </td>
+                </tr>
+                <tr>
+                <td style="width: 30%; border-bottom: none;">Công nghệ</td>
+                <td style="border-bottom: none;">-HTML, CSS, Javascript</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- Phần Footer -->
+
+    <section id="footer" class="bg-grey">
+      <div class="container">
+        <ul>
+          <li><i class="icon-facebook-circled"></i><a href="https://www.facebook.com/profile.php?id=100037606010473">Facebook</a></li>
+          <li><i class="icon-linkedin-circled"></i><a href="#">Linkedin</a></li>
+          <li><i class="icon-github-circled"></i><a href="#"></i>Github</a></li>
+        </ul>
+      </div>
+    </section>
+    <script src="asm3.js"></script>
+  </body>
+</html>
+
+  </body>
+</html>

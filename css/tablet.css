@@ -1,0 +1,44 @@
+@media screen and (max-width: 992px) {
+  .nav-size-avt {
+    display: none;
+  }
+  .container-title {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .project {
+    gap: 5px;
+  }
+}
+
+/* Tablet Digital */
+
+@media screen and (max-width: 992px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .scoper-colums {
+    display: block;
+  }
+  .team,
+  .goal,
+  .primary,
+  .timeline {
+    display: block;
+  }
+
+  .icon-digital {
+    text-align: center;
+  }
+  .box1 {
+    order: -2;
+  }
+  .box3 {
+    order: 1;
+  }
+  .box4 {
+    order: -1;
+  }
+}
